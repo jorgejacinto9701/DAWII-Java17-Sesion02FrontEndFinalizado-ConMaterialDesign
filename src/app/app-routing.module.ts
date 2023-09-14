@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
+import { AddModalidadComponent } from './components/add-modalidad/add-modalidad.component';
 
 const routes: Routes = [
-  { path:"addModalidad",   }
+  { path:"addModalidad", component: AddModalidadComponent  }
 ];
 
 
